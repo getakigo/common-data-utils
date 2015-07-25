@@ -1,0 +1,36 @@
+{
+  "name": "common-data-utils",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Utility functions common to all data request repositories",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "check": "npm-check --skip-unused"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getakigo/common-data-utils.git"
+  },
+  "author": "Alistair Brown <npm@alistairjcbrown.com> (http://alistairjcbrown.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getakigo/common-data-utils/issues"
+  },
+  "homepage": "https://github.com/getakigo/common-data-utils#readme",
+  "dependencies": {
+    "lodash": "~3.10.0",
+    "mkdirp": "~0.5.1",
+    "q": "~1.4.1",
+    "request": "~2.60.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "~3.1.24",
+    "gulp": "~3.9.0",
+    "gulp-eslint": "~0.15.0",
+    "gulp-lint-filepath": "~1.0.1",
+    "gulp-load-plugins": "~0.10.0",
+    "harmonize": "~1.4.4",
+    "npm-check": "~3.2.10"
+  }
+}
